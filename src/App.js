@@ -7,6 +7,8 @@ import Header from './components/Header'
 import About from './components/About'
 import Services from './components/Services';
 import Experience from './components/Experience';
+import ContactMe from './components/ContactMe';
+
 
 function App() {
   return (
@@ -27,6 +29,7 @@ function App() {
      <About/>
      <Services />
      <Experience/>
+     <ContactMe />
      </>
   );
 }

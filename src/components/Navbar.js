@@ -30,11 +30,7 @@ function Navbar() {
 
                     <li className="nav-item">
                         <a className="nav-link" href="#">Tecrube</a>
-                    </li>
-
-                    <li className="nav-item">
-                        <a className="nav-link" href="#">Portofolio</a>
-                    </li>
+                    </li>          
 
             </ul>    
         </div>
