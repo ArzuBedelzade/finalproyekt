@@ -13,6 +13,7 @@
 
    /* xidmetler rengi */
    --primary-light-grey: #f4f4f4;
+   --footer-rengi:#f39c12;
 }
 
 nav{
@@ -420,6 +421,29 @@ color: var(--primary-green);
 .contacts p {
   padding: 0 0.4rem;
 }
+}
+
+/* Footer */
+
+.footer {
+  background: var(--footer-rengi);
+  color: var(--primary-dark-grey);
+  padding: 3rem;
+}
+
+.footer a {
+  text-decoration: none;
+  color: var(--primary-dark-grey);
+}
+
+.footer a:hover {
+  text-decoration: none;
+  color: var(--primary-red);
+  cursor: pointer;
+}
+
+.footer p {
+  margin-bottom: 0;
 }
 
 
